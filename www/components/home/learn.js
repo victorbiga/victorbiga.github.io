@@ -5,12 +5,12 @@ import SectionHeader from '../section-header';
 export default function Learn() {
   return (
     <Container center padding wide role="region" aria-labelledby="learn">
-      <SectionHeader id="learn" title="Learn Next.js" />
+      <SectionHeader
+        id="learn"
+        title="Learn Next.js"
+        description="Tutorials, examples and quizzes. Learn Next.js step-by-step and earn points ✨."
+      />
       <div className="learn-intro">
-        <p>
-          Tutorials, examples and quizzes. <br className="display-mobile" />
-          Learn Next.js step-by-step and earn points ✨.
-        </p>
         <div className="overlay" />
         <style jsx>{`
           .learn-intro {

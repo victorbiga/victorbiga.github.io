@@ -21,15 +21,11 @@ export default function Container({
       {
         width: 100%;
         margin: 0 auto;
-        padding: ${padding ? '4rem' : '0'} ${wide ? '0' : '1rem'};
+        padding: ${padding ? '6.25rem' : '0'} ${wide ? '0' : '1rem'};
         ${wide && !small ? '' : 'max-width: 1024px;'}
         ${small ? 'max-width: 682px;' : ''}
         ${center ? 'text-align: center;' : ''}
-        ${
-          dark
-            ? 'background-image: linear-gradient(to bottom, #121212 0%, #323232 100%);'
-            : ''
-        }
+        ${dark ? 'background-image: linear-gradient(to bottom, #121212 0%, #323232 100%);' : ''}
         ${dark ? 'color: #f1f1f1;' : ''}
         ${gray ? 'background-color: #f6f6f6;' : ''}
         ${wide && !overflow ? 'overflow: hidden;' : ''}
@@ -43,9 +39,7 @@ export default function Container({
         `
             : ''
         }
-        ${
-          divider ? `border-top: 1px solid rgba(0,0,0,0.1);` : ''
-        }
+        ${divider ? `border-top: 1px solid rgba(0,0,0,0.1);` : ''}
       }
       :after {
         // BFC

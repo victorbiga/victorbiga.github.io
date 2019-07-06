@@ -31,8 +31,8 @@ export default () => {
         />
         <SkipNavContent />
         <Notification href="/blog/next-8" title="Next 8 is out!" titleMobile="Next 8 is out!">
-          Next 8 is out! — Serverless mode, performance and security improvements and more. Monday,
-          February 11th 2019
+          <b>Next 8 is out!</b> — Serverless mode, performance and security improvements and more.
+          <span className="highlight">Learn More →</span>
         </Notification>
         <Intro isAmp={isAmp} />
         <Demo />

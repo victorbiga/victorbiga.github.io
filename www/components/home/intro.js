@@ -163,9 +163,9 @@ export default class extends React.PureComponent {
                 width: 100%;
                 letter-spacing: -0.02rem;
                 overflow: hidden;
-                pointer-events: none;
                 cursor: default;
                 z-index: -1;
+                margin: 1rem 0 5rem;
               }
               .f-xs-0 {
                 font-size: 2.887rem; /* 2.566rem; /* 2.281rem; */
@@ -185,15 +185,12 @@ export default class extends React.PureComponent {
                 z-index: 1000;
               }
               .title-1 {
-                font-size: 1.802032470703125em;
+                font-size: 1.5rem;
               }
               .title-2 {
-                font-size: 2.887rem;
-                margin-top: -4.2rem;
+                font-size: 4rem;
+                margin-top: -5rem;
                 margin-bottom: 0;
-              }
-              .campaign {
-                margin: 1rem 0 1.6rem;
               }
               // CSS only media query for mobile
               @media screen and (max-width: 640px) {
@@ -215,13 +212,13 @@ export default class extends React.PureComponent {
               <h2 className={classNames('title-2', 'fw7')}>
                 <Campaign />
               </h2>
-            </div>
-            <div>
               <div className="main-button">
                 <Button href="#showcases" invert>
                   See Showcase
                 </Button>
               </div>
+            </div>
+            <div>
               <div className="links">
                 <a href={links.license} rel="noopener noreferrer" target="_blank">
                   <span className="mute">License: MIT</span>
