@@ -42,7 +42,7 @@ function Navbar({ className, hideLogo, route, isMobile }) {
               nav {
                 position: relative;
                 flex: 1;
-                height: 96px;
+                height: 114px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
