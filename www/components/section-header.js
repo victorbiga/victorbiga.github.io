@@ -19,6 +19,11 @@ export default withPure(({ anchor, id, title, description, margin = '0 0 5rem 0'
           position: absolute;
           top: -9rem;
         }
+        @media screen and (max-width: 640px) {
+          div {
+            padding: 0 10px;
+          }
+        }
       `}
     </style>
     {anchor && <span id={anchor} className="anchor" />}

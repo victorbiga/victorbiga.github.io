@@ -20,7 +20,7 @@ export default function Learn() {
             margin: auto;
             background: url(/static/images/learn.png);
             background-size: 100% auto;
-            background-position: 0 2rem;
+            background-position: 0 1rem;
             background-repeat: no-repeat;
           }
           .overlay {
@@ -39,7 +39,8 @@ export default function Learn() {
           // CSS only media query for tablet
           @media screen and (max-width: 960px) {
             .learn-intro {
-              background-position: 0 3.5rem;
+              height: 350px;
+              background-position: 0;
               background-size: 160% auto;
             }
           }
