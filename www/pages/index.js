@@ -31,7 +31,7 @@ export default () => {
         />
         <SkipNavContent />
         <Notification href="/blog/next-8" title="Next 8 is out!" titleMobile="Next 8 is out!">
-          <b>Next 8 is out!</b> — Serverless mode, performance and security improvements and more.
+          <b>Next 9 is out!</b> — TypeScript, Dynamic Routing, Auto Static Optimization, and more!
           <span className="highlight">Learn More →</span>
         </Notification>
         <Intro isAmp={isAmp} />
