@@ -39,9 +39,9 @@ export default function Learn() {
           // CSS only media query for tablet
           @media screen and (max-width: 960px) {
             .learn-intro {
-              height: 350px;
+              height: 200px;
               background-position: 0;
-              background-size: 160% auto;
+              background-size: 100% auto;
             }
           }
         `}</style>

@@ -204,6 +204,9 @@ export default class extends React.PureComponent {
                 .campaign {
                   margin: 0 0 2rem;
                 }
+                .main-button {
+                  margin-top: 2rem;
+                }
               }
             `}</style>
             {!isAmp && <LogoContainer />}
