@@ -107,12 +107,6 @@ class LogoContainer extends React.PureComponent {
           .unmounted {
             display: none;
           }
-          // CSS only media query for mobile
-          @media screen and (max-width: 640px) {
-            .logo-main {
-              display: none;
-            }
-          }
         `}</style>
       </div>
     );

@@ -21,7 +21,7 @@ export default () => {
   return (
     <>
       <Header height={64} shadow defaultActive>
-        <Navbar hideLogo={{ desktop: !isAmp, mobile: false }} />
+        <Navbar hideLogo={{ desktop: !isAmp, mobile: true }} />
       </Header>
       <Page title="Next.js - The React Framework">
         <SocialMeta
