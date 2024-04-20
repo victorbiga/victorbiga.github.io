@@ -2,7 +2,7 @@
 
 The official website for Next.js
 
-## Contribution
+## Contributions
 
 To submit a feature, bug fix, or enhancement to the website proceed as follows:
 
